@@ -1,0 +1,5 @@
+# These are the yield loss percentage breakdowns unaffected by the specializations of the refinery station. Refinery station specializations will be added in a different section.
+
+# High Yield = 15% SCU reduction (e.g. 100 ore with high yield will spit out 85 refined material)
+# Medium Yield = 
+# Low Yield =
