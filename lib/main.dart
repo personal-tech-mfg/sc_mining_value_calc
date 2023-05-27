@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       ),
       home: const MyHomePage(title: "Welcome!"),
       routes: {
-        '/home/':(context) => const MyApp(),
+        '/home/': (context) => const MyApp(),
         '/ore_calculation/': (context) => const RawOre(),
         '/value_display/': (context) => const ValueDisplay()
       },
@@ -61,6 +61,11 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
               ),
               ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  side: const BorderSide(width: 2.5, color: Colors.black),
+                  shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(30)),
+                ),
                 onPressed: () {
                   Navigator.of(context).pushNamedAndRemoveUntil(
                     '/ore_calculation/',
