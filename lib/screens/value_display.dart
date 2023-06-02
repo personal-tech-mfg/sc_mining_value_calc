@@ -32,15 +32,6 @@ class ValueDisplay extends StatelessWidget {
                   onPressed: null,
                   child: const Text('Dinyx Solvention'),
                 ),
-                ElevatedButton(
-                  style: ElevatedButton.styleFrom(
-                    side: const BorderSide(width: 2.5, color: Colors.black),
-                    shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(30)),
-                  ),
-                  onPressed: null,
-                  child: const Text('Electrostarolysis'),
-                ),
               ],
             ),
             Row(
@@ -53,8 +44,22 @@ class ValueDisplay extends StatelessWidget {
                         borderRadius: BorderRadius.circular(30)),
                   ),
                   onPressed: null,
+                  child: const Text('Electrostarolysis'),
+                ),
+                ElevatedButton(
+                  style: ElevatedButton.styleFrom(
+                    side: const BorderSide(width: 2.5, color: Colors.black),
+                    shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(30)),
+                  ),
+                  onPressed: null,
                   child: const Text('Ferron Exchange'),
                 ),
+              ],
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
                 ElevatedButton(
                   style: ElevatedButton.styleFrom(
                     side: const BorderSide(width: 2.5, color: Colors.black),
@@ -87,6 +92,11 @@ class ValueDisplay extends StatelessWidget {
                   onPressed: null,
                   child: const Text('Pyrometric Chromalysis'),
                 ),
+              ],
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
                 ElevatedButton(
                   style: ElevatedButton.styleFrom(
                     side: const BorderSide(width: 2.5, color: Colors.black),
@@ -112,7 +122,11 @@ class ValueDisplay extends StatelessWidget {
                 ),
               ],
             ),
-            Card(child: Table(children: [],),),
+            Card(
+              child: Table(
+                children: [],
+              ),
+            ),
             Row(mainAxisAlignment: MainAxisAlignment.center, children: [
               ElevatedButton(
                 style: ElevatedButton.styleFrom(

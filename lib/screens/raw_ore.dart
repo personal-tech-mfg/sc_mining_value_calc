@@ -20,6 +20,7 @@ class RawOre extends StatelessWidget {
                   color: Colors.amber,
                   width: 2.5,
                 ),
+                defaultColumnWidth: const FixedColumnWidth(180),
                 children: const [
                   TableRow(
                     children: [
@@ -32,7 +33,7 @@ class RawOre extends StatelessWidget {
                         ),
                       ),
                       TextField(
-                        textAlign: TextAlign.right,
+                        textAlign: TextAlign.center,
                         keyboardType: TextInputType.number,
                       ),
                     ],
@@ -48,7 +49,7 @@ class RawOre extends StatelessWidget {
                         ),
                       ),
                       TextField(
-                        textAlign: TextAlign.right,
+                        textAlign: TextAlign.center,
                         keyboardType: TextInputType.number,
                       ),
                     ],
@@ -64,7 +65,7 @@ class RawOre extends StatelessWidget {
                         ),
                       ),
                       TextField(
-                        textAlign: TextAlign.right,
+                        textAlign: TextAlign.center,
                         keyboardType: TextInputType.number,
                       ),
                     ],
@@ -80,7 +81,7 @@ class RawOre extends StatelessWidget {
                         ),
                       ),
                       TextField(
-                        textAlign: TextAlign.right,
+                        textAlign: TextAlign.center,
                         keyboardType: TextInputType.number,
                       ),
                     ],
@@ -96,7 +97,7 @@ class RawOre extends StatelessWidget {
                         ),
                       ),
                       TextField(
-                        textAlign: TextAlign.right,
+                        textAlign: TextAlign.center,
                         keyboardType: TextInputType.number,
                       ),
                     ],
@@ -112,7 +113,7 @@ class RawOre extends StatelessWidget {
                         ),
                       ),
                       TextField(
-                        textAlign: TextAlign.right,
+                        textAlign: TextAlign.center,
                         keyboardType: TextInputType.number,
                       ),
                     ],
@@ -128,7 +129,7 @@ class RawOre extends StatelessWidget {
                         ),
                       ),
                       TextField(
-                        textAlign: TextAlign.right,
+                        textAlign: TextAlign.center,
                         keyboardType: TextInputType.number,
                       ),
                     ],
@@ -144,7 +145,7 @@ class RawOre extends StatelessWidget {
                         ),
                       ),
                       TextField(
-                        textAlign: TextAlign.right,
+                        textAlign: TextAlign.center,
                         keyboardType: TextInputType.number,
                       ),
                     ],
@@ -160,7 +161,7 @@ class RawOre extends StatelessWidget {
                         ),
                       ),
                       TextField(
-                        textAlign: TextAlign.right,
+                        textAlign: TextAlign.center,
                         keyboardType: TextInputType.number,
                       ),
                     ],
@@ -176,7 +177,7 @@ class RawOre extends StatelessWidget {
                         ),
                       ),
                       TextField(
-                        textAlign: TextAlign.right,
+                        textAlign: TextAlign.center,
                         keyboardType: TextInputType.number,
                       ),
                     ],
@@ -192,7 +193,7 @@ class RawOre extends StatelessWidget {
                         ),
                       ),
                       TextField(
-                        textAlign: TextAlign.right,
+                        textAlign: TextAlign.center,
                         keyboardType: TextInputType.number,
                       ),
                     ],
@@ -208,7 +209,7 @@ class RawOre extends StatelessWidget {
                         ),
                       ),
                       TextField(
-                        textAlign: TextAlign.right,
+                        textAlign: TextAlign.center,
                         keyboardType: TextInputType.number,
                       ),
                     ],
@@ -224,7 +225,7 @@ class RawOre extends StatelessWidget {
                         ),
                       ),
                       TextField(
-                        textAlign: TextAlign.right,
+                        textAlign: TextAlign.center,
                         keyboardType: TextInputType.number,
                       ),
                     ],
@@ -240,7 +241,7 @@ class RawOre extends StatelessWidget {
                         ),
                       ),
                       TextField(
-                        textAlign: TextAlign.right,
+                        textAlign: TextAlign.center,
                         keyboardType: TextInputType.number,
                       ),
                     ],
@@ -256,7 +257,7 @@ class RawOre extends StatelessWidget {
                         ),
                       ),
                       TextField(
-                        textAlign: TextAlign.right,
+                        textAlign: TextAlign.center,
                         keyboardType: TextInputType.number,
                       ),
                     ],
@@ -272,7 +273,7 @@ class RawOre extends StatelessWidget {
                         ),
                       ),
                       TextField(
-                        textAlign: TextAlign.right,
+                        textAlign: TextAlign.center,
                         keyboardType: TextInputType.number,
                       ),
                     ],
@@ -288,7 +289,7 @@ class RawOre extends StatelessWidget {
                         ),
                       ),
                       TextField(
-                        textAlign: TextAlign.right,
+                        textAlign: TextAlign.center,
                         keyboardType: TextInputType.number,
                       ),
                     ],
